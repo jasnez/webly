@@ -1,14 +1,20 @@
 backend:
+<<<<<<< HEAD
   name: github
   repo: jasnez/webly  # Update this to your GitHub repo
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
+=======
+  name: git-gateway
+  branch: main
+>>>>>>> 93f3f2c97be41d9de189df41714bfcef91334668
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+<<<<<<< HEAD
   - name: "homepage"
     label: "Homepage"
     files:
@@ -18,3 +24,20 @@ collections:
         fields:
           - { label: "Hero Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
+=======
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+            default: "Build your online presence, effortlessly."
+          - label: "Hero Subtitle"
+            name: "hero_subtitle"
+            widget: "string"
+            default: "Professional, responsive websites for small & medium businesses in Sarajevo."
+>>>>>>> 93f3f2c97be41d9de189df41714bfcef91334668
