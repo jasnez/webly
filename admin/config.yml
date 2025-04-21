@@ -13,5 +13,11 @@ collections:
         label: "Homepage"
         name: "homepage"
         fields:
-          - { label: "Hero Title", name: "hero_title", widget: "string" }
-          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string" }
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+            default: "Build your online presence, effortlessly."
+          - label: "Hero Subtitle"
+            name: "hero_subtitle"
+            widget: "string"
+            default: "Professional, responsive websites for small & medium businesses in Sarajevo."
