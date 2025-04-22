@@ -1,0 +1,27 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F9FBFC;
+  color: #1A1A1A;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header, progress bar, sticky cta, hero, buttons, testimonials-hero, sections, cards, 
+   portfolio, testimonials, social proof, pricing, about, faq, contact, footer, modal,
+   form steps, responsive etc. 
+   (Use the full CSS from the <style> block in index.html above) */
+
